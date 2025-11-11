@@ -152,6 +152,7 @@ peliculas.forEach(async pelicula => {
     crearCard(info_text,"Nombre:",pelicula.titulo);
     crearCard(info_text,"Año:",pelicula.año);
     crearCard(info_text,"Director:",pelicula.director);
+    crearCard(info_text,"Duración (min):",pelicula.duracion);
     crearCard(info_text,"Género:",pelicula.genero);
     card.appendChild(info_text);
     container.appendChild(card);
